@@ -13,5 +13,5 @@ function sendMail(){
     pesan : document.getElementById("pesan").value
   }
   
-  emailjs.send("service_vnx2djr","template_to996vs",parms).then(alert("Email sent!!!"))
+  emailjs.send("service_vnx2djr","template_d7y56he",parms).then(alert("Email sent!!!"))
 }
